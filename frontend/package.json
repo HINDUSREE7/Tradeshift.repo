@@ -1,0 +1,27 @@
+{
+  "name": "tradeshift-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.jsx",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.0",
+    "recharts": "^2.5.0",
+    "jwt-decode": "^3.1.2"
+  },
+  "devDependencies": {
+    "vite": "^5.1.0",
+    "tailwindcss": "^3.5.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.40.0",
+    "vitest": "^1.0.0"
+  }
+}
